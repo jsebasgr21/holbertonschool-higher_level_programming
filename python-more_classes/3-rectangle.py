@@ -150,8 +150,8 @@ class Rectangle:
             return ""
 
         rectangle_str = ""
-        for _ in range(self.__height):
-            for _ in range(self.__width):
-                rectangle_str += "#"
-            rectangle_str += "\n"
+        for i in range(self.__height):
+            rectangle_str += "#" * self.__width
+            if i < self.__height - 1:
+                rectangle_str += "\n"
         return rectangle_str
