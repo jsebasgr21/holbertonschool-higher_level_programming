@@ -1,3 +1,19 @@
->>> add_integrer = __import__('0-add_integrer').add_integrer
+The ``add_integer`` module
+======================
 
+Using ``add_integer``
+-------------------
 
+Import ``add_integer`` from ``0-add_integer`` module:
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+test #2: addition of 'a' positive and 'b' positive
+
+    >>> add_integer(1, 2)
+    3
+
+test #3: addition of 'a' negative and 'b' positive
+
+    >>> add_integer(-1, 2)
+    1
