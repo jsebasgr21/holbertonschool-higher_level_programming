@@ -1,0 +1,3 @@
+>>> add_integrer = __import__('0-add_integrer').add_integrer
+
+
