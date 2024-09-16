@@ -1,0 +1,15 @@
+The ``2-matrix_divided`` module
+======================
+
+Using ``matrix_divided``
+-------------------
+
+test #1: Import ``matrix_divided`` from ``matrix_divided`` module:
+
+	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+test #2: div must be an integer or float
+    >>> matrix_divided([[10, 10], [20, 20], "30"])
+    Traceback (most recent call last):
+        ...
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
