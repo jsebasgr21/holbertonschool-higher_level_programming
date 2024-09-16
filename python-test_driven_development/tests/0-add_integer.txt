@@ -33,3 +33,9 @@ test #6: check the type of "b"
     Traceback (most recent call last):
         ...
     TypeError: b must be an integer
+
+test #7: checking float overflow
+    >>> add_integer(float('inf'), 2)
+    Traceback (most recent call last):
+    	      ...
+    OverflowError: cannot convert float infinity to integer
