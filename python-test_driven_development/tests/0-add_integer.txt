@@ -1,4 +1,4 @@
-The ``add_integer`` module
+The ``0-add_integer`` module
 ======================
 
 Using ``add_integer``
@@ -17,3 +17,7 @@ test #3: addition of 'a' negative and 'b' positive
 
     >>> add_integer(-1, 2)
     1
+
+test #4: adding 'a' float
+    >>> add_integer(5.5)
+    103
