@@ -21,3 +21,15 @@ test #3: addition of 'a' negative and 'b' positive
 test #4: adding 'a' float
     >>> add_integer(5.5)
     103
+
+test #5: check the type of "a"
+    >>> add_integer("hi")
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
+
+test #6: check the type of "b"
+    >>> add_integer(2, "hi again")
+    Traceback (most recent call last):
+        ...
+    TypeError: b must be an integer
